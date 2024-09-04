@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="utility.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="playbar ">
+            
+            <div class="songinfo">
+              <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+            </div>
+
+            <div class="playbutt ">
+                 <div class="gif">
+                    <img src="playing.gif" alt="" width="50px" id="gif1">
+                    <span id="masterSongName">Aj Ki Raat</span>
+                    </div> 
+               <div class="im ">   
+            <img src="previous.svg"  class="svg invert" id="previous1" >
+          <img src="lastimg.svg" id="masterPlay"alt="" class="svg invert" onclick="changeImage()">
+          <img src="next.svg" alt="" width="15px" class=" svg invert" id="next1">
+          </div>
+        </div>
+        
+          <!-- <div class="songinfo">
+
+          </div> -->
+        </div> 
+        <div class="left">
+            <div class="firstconatiner">
+                <div class="logo invert">
+                    <img src="path.svg" alt="">
+                </div>
+                <ul class ="unorderd">
+                    <li class="image"><img src="home.svg" alt="" class=" picture invert">Home</li>
+                    <li class="image opacity" ><img src="search.svg" alt="" class=" picture opacity invert">Search</li>
+                </ul>
+            </div>
+            <div class="secondcontainer">
+                <div class="libararycontainer invert">
+                <img class=" libraryimage " src="library.svg" alt=""class="invert  cursor allclick" onclick="changeImage()"id="0">
+                <div class="iconcontainer">
+                    <!-- <img class=" libraryimage " src="library.svg" alt=""> -->
+                <span class="invert span1">Your Library</span>
+               
+                <!-- </div> -->
+                </div>
+                </div>
+                <div class="songitems">
+                    <div class="firstsong">
+                        <img  alt="" class="cover">
+                        <span class="songname"></span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert  cursor allclick" onclick="changeImage()"id="0">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert
+          cursor allclick" onclick="changeImage()"id="1">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img  alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert
+          cursor allclick" onclick="changeImage()"id="2">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img  alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert
+          cursor allclick" onclick="changeImage()"id="3">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt="" class="invert
+          cursor allclick" onclick="changeImage()"id="4">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img  alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt="" class="invert
+          cursor allclick" onclick="changeImage()"id="5">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert  cursor allclick" onclick="changeImage()"id="6">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert  cursor allclick" onclick="changeImage()"id="7">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img  alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert  cursor allclick" onclick="changeImage()"id="8">
+                        </div>
+                    </div>
+                    <div class="firstsong">
+                        <img  alt="" class="cover">
+                        <span class="songname">Let me Love You</span>
+                        <div class="timecontainer">
+                            <span class="time">05:34</span>
+                            <img src="lastimg.svg" alt=""class="invert  cursor allclick" onclick="changeImage()"id="9">
+                        </div>
+                    </div>
+                </div>
+                <div class="footercontianer">
+                    <div class="legal">
+                    <span>Legal</span>
+                    </div>
+                    <div class="legal">
+                    <span>Safety & Privacy Policy</span>
+                    </div>
+                    <div class="legal">
+                    <span>Privacy Center</span>
+                    </div>
+                    <div class="legal">
+                    <span>Cookies</span>
+                    </div>
+                    <div class="legal">
+                    <span>About Us</span>
+                    </div>
+                    <div class="legal">
+                    <span>Accessibility</span>
+                    </div>
+                    <div class="legal">
+                    <span>Cookies</span>
+                    </div>
+                </div>
+                
+                <!-- <div class="buttoncontainer invert">
+                    <img  src="button.svg" alt="" class="button">
+                    <span class="invert">English</span>
+                </div> -->
+                </div>
+            
+        </div>
+        <div class="right">
+            <div class="nav">
+                <div class="svgcontainer opacity">
+                <img src="left.svg " alt="" class="leftimage invert">
+                <img src="right.svg" alt="" class="leftimage invert">
+                </div>
+                <div class="buttcontainer">
+                    <button class="button1 ">Sign up</button>
+                    <button class="button2">Log in</button>
+                </div>
+            </div>
+        <div class="overallalbumcontainer">
+            <div class="popularartist">
+                <h2 class="artistheading">Popular artist</h2>
+                <a href="#" class="show opacity">Show all</a>
+            </div>
+            <div class="cardcontainer">
+                <!-- <div class="hovercontainer"> -->
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="artistimage.jpeg" alt="" class="aimage">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">Pritam</li>
+                            <li class="artist opacity">Artist</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                  <!-- edit -->
+      
+            
+             
+            </div>
+            <div class="popularartist">
+                <h2 class="artistheading">Popular albums</h2>
+                <a href="#" class="show opacity">Show all</a>
+            </div>
+            <div class="cardcontainer">
+                <!-- <div class="hovercontainer"> -->
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="spotifysong/spotify1.jpeg" alt="" class="a1image">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">Aashiqui 2</li>
+                            <li class="artist opacity">Mithoon,Ankit Tiwari,Jeet Gaanguli</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="spotifysong/spotify2.jpeg" alt="" class="a1image">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">love hotel</li>
+                            <li class="artist opacity">leftovermax</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="spotifysong/spotify3.jpeg" alt="" class="a1image">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">Ek Tha Raja</li>
+                            <li class="artist opacity">Badshah</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="spotifysong/spotify4.jpeg" alt="" class="a1image">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">ANIMAL</li>
+                            <li class="artist opacity">Manan Bhardwaj</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="spotifysong/spotify5.jpeg" alt="" class="a1image">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">Making Memories</li>
+                            <li class="artist opacity">Karan Aujla</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="card">
+                    <button class="playbutton">
+                        <img src="fill.svg" alt="">
+                    </button>
+                    <div class="art">
+                    <img src="spotifysong/spotify6.jpeg" alt="" class="a1image">
+                    </div>
+                    <div class="details">
+                        <ul class="xyz">
+                            <li class="bold">Moosetape</li>
+                            <li class="artist opacity">Sidhu Moose Wala</li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+               
+                  <!-- edit -->
+      
+            
+             
+            </div>
+           
+        </div>
+       
+     
+        </div>
+       
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

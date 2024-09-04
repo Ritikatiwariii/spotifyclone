@@ -1,0 +1,481 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.left{
+    width: 338px;
+
+}
+.right{
+     /* height: 100%; */
+    width: 75vw;
+}
+.container{
+    width: 100vw;
+    /* height: 100vh; */
+}
+body{
+    overflow: hidden;
+    background-color: green;
+    background-color: black;
+    color: white;
+   width: 100vw;
+   height: 100vh;
+    font-family: "Radio Canada Big", sans-serif;
+}
+.invert{
+    filter: invert(1);
+}
+.svg{
+    width: 30px;
+}
+.picture{
+    width: 25px;
+}
+.unorderd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3rem;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 1rem;
+    list-style: none;
+}
+.image{
+    display: flex;
+    gap: 1.3rem;
+}
+.firstconatiner{
+    /* width: 100%; */
+    background-color: #121212;
+    padding: 12px;
+    margin: 8px; 
+     cursor: pointer;
+    border-radius: 4px;
+}
+.songitems{
+    background-color: rgba(166, 166, 238, 0.74);
+}
+
+.secondcontainer{
+    background-color: #121212;
+    padding: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 8px;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border-radius: 4px;
+ height: 61.99vh; 
+}
+.libraryimage {
+    width: 25px;
+}
+.iconcontainer{
+    width: 100%;
+    display: flex;
+    /* background-color: purple; */
+    /* justify-content: space-between; */
+    align-items: center;
+   gap: 6rem;
+
+}
+.icon{
+    opacity: 0.6;
+}
+.libararycontainer{
+    /* width: 100%; */
+    display: flex;
+    font-size: medium;
+    gap: 1rem;
+    align-items: center;
+}
+.span1{
+ opacity: 0.5;
+ font-size: large;
+}
+ .libraryimage{
+    opacity: 0.5;
+ }
+ .opacity{
+    opacity: 0.8;
+ }
+ .footercontianer{
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.6fr;
+   gap: 0.6rem;
+   /* background-color: purple; */
+    font-size: 0.79rem;
+    /* margin-top: 3.5rem; */
+    font-weight: 400;
+    margin-top: 1rem;
+
+ }
+ .legal{
+    cursor: pointer;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1 px solid blue;
+    font-weight: 200;
+    gap: 0.7rem;
+ }
+ .button{
+    width: 16px;
+ }
+ .buttoncontainer{
+    cursor: pointer;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 120px;
+    border: 1px solid black;
+    /* padding-left: 0.5rem; */
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    
+ }
+ .icon{
+    width: 16px;
+ }
+ .nav{
+    margin-top: 8px;
+    width: 100%;
+    margin-right: 8px;
+    border-top-left-radius:4px;
+    border-top-right-radius: 4px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    background-color:#101010;
+    padding: 0 18px;
+ }
+ .container{
+    display: flex;
+    flex-direction: row;
+ }
+ .leftimage{
+    width: 15px;
+ }
+ .buttcontainer{
+    display: flex;
+    gap: 1.2rem;
+    cursor: pointer;
+    width: 240px;
+    align-items: center;
+ }
+ .button1{
+    padding: 0.5rem 1.2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: white;
+    color: #a7a7a7;
+    background-color: #101010;
+    font-family: "Radio Canada Big", sans-serif;
+
+ }
+ .button2{
+    font-weight: 600;
+    cursor: pointer;
+   padding: 0.8rem 1.9rem;
+   border-radius: 1.4rem;
+   font-size: 0.99rem;
+   border: none;
+   background-color: white;
+   font-family: "Radio Canada Big", sans-serif;
+ }
+ .button1:hover{
+    color: white;
+/* font-size: 1.045rem;     */
+}
+.button2:hover{
+  color: black;
+   background-color:  rgb(240, 239, 239);
+    font-size: 1.1rem;
+    padding: 0.82rem 1.8rem;
+}
+.gif{
+    width: 20vw;
+    /* background-color: blue; */
+}
+
+/* .play-button{
+    padding: 0.39rem 0.5rem;
+    border-radius: 3rem;
+    background-color: rgb(13, 226, 13);
+    border: none;
+} */
+
+.overallalbumcontainer{
+   width: 100%;
+   /* check height also tempary  */
+    height: 100vh;
+    background-color:#1b1b1b;
+}
+
+.popularartist{
+    font-family: "Radio Canada Big", sans-serif;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+     padding-top: 2rem; 
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    justify-content: space-between;
+}
+
+.show{
+    font-family: "Radio Canada Big", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.show:hover{
+    text-decoration: underline;
+}
+.artistheading:hover{
+    text-decoration: underline;
+}
+.cardcontainer{
+   display: flex;
+   /* position: relative;  */
+   width: 100%;
+   /* width: 400px; */
+    /* height: 800px;  */
+   /* tempary set  */
+   /* width: 100%;
+   height: 100%; */
+}
+.overallalbumcontainer{
+    /* background-color: rgb(0, 89, 255); */
+    /* margin-left: 0.3rem; */
+    /* check this */
+    overflow-x: hidden;
+      height: 75vh; 
+      overflow-y: scroll;
+      /* width: 80vw;  */
+}
+.card{
+    border-radius: 0.3rem;
+     position: relative;
+    /* margin-left: 0.5rem; */
+    width: 170px;
+   margin-top: 0.5rem;
+    /* background-color: green; */
+}
+.artist{
+    padding-top: 0.26rem;
+    font-size: 0.9rem;
+}
+.xyz{
+    font-family: "Radio Canada Big", sans-serif;
+    padding-left: 0.8rem;
+    list-style: none;
+    padding-bottom: 2rem;
+}
+.aimage{
+    width: 155px;
+    height: 145px;
+    overflow: hidden;
+    /* height: 100px; */
+    object-fit: cover;
+    border-radius: 11rem;
+   
+}
+
+.button2:hover{
+   
+}
+.im{
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    /* margin-right: 2rem; */
+    justify-content: center;
+    gap: 0.1rem;
+    margin: 0 auto;
+}
+.bold{
+    font-weight: 500;
+    font-size: 17px;
+}
+.art{
+    border-radius: 11rem;
+    /* width: 155px;
+    height: 200px;
+    background:yellow; */
+    padding: 0.9rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.playbutton{
+    padding: 0.65rem 0.69rem;
+    border-radius: 3rem;
+    background-color: rgb(33, 252, 33);
+    border: none;
+    position: absolute;
+    bottom: 102px;
+    opacity: 0;
+  transition: all 90ms ease-in;
+    left: 115px;
+}
+#gif1{
+    opacity: 0;
+    transition: all 1ms ease-in;
+}
+.card:hover{
+    background-color: rgb(24, 23, 23);
+
+}
+.card:hover{
+    .playbutton{
+    bottom: 92px;
+    opacity: 1;
+    }
+}
+/* .body{
+    position: relative;
+} */
+  .playbar{
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    position: absolute;
+    bottom:5px;
+    width: 99vw;
+    padding: 1.2rem;
+    height: 60px;
+    margin-top: 3.5rem;
+    margin-left: 0.5rem;
+    /* background-color: brown; */
+    /* position: fixed; */
+    /* margin: 0 auto; 
+    gap: 0.7rem;
+    height: 70px;
+    /* position: relative; 
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    background-color: brown;
+     margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: pink;
+    margin-bottom: 0.1rem; */
+  }
+  .songinfo{
+    width: 100%;
+    display: block;
+  }
+ 
+.container{
+     height: 87vh;
+    /* background-color: aqua; */
+    width: 100vw;
+}
+/* .playbar {
+    display: flex;
+    flex-direction: column;
+width: 99vw;
+margin: 0 auto;
+margin-left: 0.6rem;
+} */
+#myprogressbar{
+    width: 94.99vw;
+    cursor: pointer;
+}
+.playbutt{
+     display: flex;
+     justify-content:space-between;
+    align-items: center;  
+    width: 83vw;
+    /* gap: 24rem; */
+    cursor: pointer;
+    /* margin: 0 auto; */
+    /* background-color: orange; */
+}
+.songitems{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* cursor: pointer; */
+  background-color: rgb(211, 195, 253);
+    padding-top: 0.5rem;
+    overflow-y: scroll;
+}
+.cursor{
+    cursor: pointer;
+}
+.cover{
+    width: 38px;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.firstsong{
+    display: flex;
+    gap: 1rem;
+    background-color: #101010;
+    color:white;
+    padding: 0.4rem;
+    /* padding-left: 0.6rem; */
+    /* margin: 0 0.5rem; */
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2rem;
+    border: none;
+}
+.timecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: black; /* Background of the track (part that the thumb slides along) */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(19, 18, 18); /* Color of the draggable part of the scrollbar */
+    border-radius: 10px; /* Round the corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(20, 20, 20); /* Color of the thumb on hover */
+}
+.a1image{
+    width: 155px;
+}
+@media screen and (max-width: 946px) {
+
+   
+    .songinfo{
+        display:none;
+    }
+   
+    .footercontianer{
+        display: none;
+    }
+}
